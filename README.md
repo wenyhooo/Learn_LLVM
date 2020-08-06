@@ -1,6 +1,18 @@
 [TOC]
 
 # 学习LLVM认识代码编译过程
+   * [学习LLVM认识代码编译过程](#学习llvm认识代码编译过程)
+         * [传统的编译器架构它到底长什么样子？](#传统的编译器架构它到底长什么样子)
+            * [Frontend](#frontend)
+            * [Optimizer](#optimizer)
+            * [Backend](#backend)
+         * [LLVM也分为这三个部分](#llvm也分为这三个部分)
+         * [Clang是什么呢？](#clang是什么呢)
+            * [LLVM和Clang的关系](#llvm和clang的关系)
+            * [相对于GCC ,Clang的优点](#相对于gcc-clang的优点)
+         * [编译的几个阶段](#编译的几个阶段)
+            * [preprocessor阶段](#preprocessor阶段)
+            * [什么是词法分析](#什么是词法分析)
 
 LLVM是可重用的编辑器（compiler）以及工具链（toolchain）技术的集合
 
