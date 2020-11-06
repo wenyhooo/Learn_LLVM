@@ -93,8 +93,7 @@ cd 到mian.m目录 命令查看：
 ```shell
 clang -ccc-print-phases main.m                  
 ```
-
-![image-20200725201959536](https://tva1.sinaimg.cn/large/007S8ZIlgy1gh3hhn19adj312a0aedib.jpg)
+![image-ccc-print](https://tva1.sinaimg.cn/large/0081Kckwgy1gkfi7ucoycj30w208o75w.jpg)
 
 1. 0: input, "main.m", objective-c   //找到源代码
 2. 1: preprocessor, {0}, objective-c-cpp-output     //预处理器 处理import 替换宏定义等
